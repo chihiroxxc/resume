@@ -1,0 +1,102 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[orange]{classic}                % idem
+\usepackage{xunicode, xltxtra}
+\XeTeXlinebreaklocale "zh"
+\widowpenalty=10000
+
+\usepackage{color}
+
+%\setmainfont[Mapping=tex-text]{文泉驿正黑}
+
+% character encoding
+%\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage{CJKutf8}
+  
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+
+\recomputelengths                             % required when changes are made to page layout lengths
+\setmainfont[Mapping=tex-text]{Hiragino Sans GB}
+\setsansfont[Mapping=tex-text]{Hiragino Sans GB}
+\CJKtilde
+
+% personal data
+\firstname{徐畅}
+\familyname{}
+\title{}               % optional, remove the line if not wanted
+
+\mobile{13141200542}                    % optional, remove the line if not wanted
+\email{xuchang1215@163.com}                      % optional, remove the line if not wanted
+%% \quote{\small{``Do what you fear, and the death of fear is certain.''\\-- Anthony Robbins}}
+\photo{photo.jpg}
+
+\nopagenumbers{}
+
+\begin{document}
+
+\maketitle
+
+\section{教育}
+\cventry{2014--至今}{硕士}{北京邮电大学}{网络技术研究院}{计算机科学与技术}{\textbf{推荐免试入学}，Top 10\%}
+\cventry{2010--2014}{本科}{北京邮电大学}{软件学院}{软件工程}{Top 10\%}  
+
+\section{实习经历}
+\renewcommand{\baselinestretch}{1.2}
+\cventry{2014}{百度}{自然语言处理部}{iOS~研发实习生}{}{参与“百度翻译”iOS~平台客户端~5.0~之后版本的迭代开发，包括词条、翻译等的收藏同步功能以及其他功能的改进和优化。\url{http://fanyi.baidu.com/appdownload/download.html}}
+
+\vspace*{0.2\baselineskip}
+
+\cventry{2013}{百度}{推荐与个性化部}{Android~研发实习生}{}{参与“涂书笔记”Android~平台客户端~1.0~版本的开发，主要贡献者。利用~ORC~技术进行文字识别代替传统的手动笔记，支持编辑分享同步。\url{http://biji.baidu.com/inotes/}}
+
+\section{荣誉}
+\cventry{2013}{美国大学生数学建模竞赛}{一等奖}{}{}{}
+\cventry{2012}{第五届~intel杯全国大学生软件创新大赛}{三等奖}{}{}{}
+\cventry{2010--至今}{\textnormal{一等奖学金三次，二等奖学金两次}}{}{}{}{}
+
+\section{项目经历}
+\renewcommand{\baselinestretch}{1.2}
+
+\cventry{2015}
+{全民造星}
+{iOS, Android}
+{}{}
+{全民造星是集粉丝、明星和影视制片方于一体的海选平台。我在该项目中负责一部分~iOS~平台客户端的开发和大部分~Android~平台客户端的开发，包括海选的展示，报名，作品的发布、展示，及用户体系相关内容。\url{http://www.youmingxing.com}}
+
+\vspace*{0.2\baselineskip}
+\cventry{2015}
+{和萍悦推}
+{Android, Web}
+{}{}
+{盲人调理师上门推拿平台。支持在线预约，上门服务，并且配套后台管理。负责开发~iOS~技师客户端,包括接单，处理，盲人模式等功能，参与了后台管理系统前后端的订单统计模块的开发（基于~Play~框架）。}
+
+\vspace*{0.2\baselineskip}
+\cventry{2015}
+{基于WiFi的室内定位系统}
+{课程设计}
+{}{}
+{基于指纹算法的WiFishineidingweixit。}
+
+\vspace*{0.2\baselineskip}
+\cventry{2014}
+{inHealth}
+{Android}
+{}{}
+{inHealth作为inWatch的配套客户端，通过蓝牙获取显示传感器探测到的用户数据。为用户提供全方面的健康管理方案。参与~1.0~版本的开发，包括用户体系内容，数据展示编辑等。}
+
+
+
+\section{技能}
+ %\cvlanguage{name}{level}{comment}
+\cventry{语言}{Java > Objective-C > Scala}{}{}{}{}
+\cventry{应用开发}{Android, iOS}{}{}{}{}
+\cventry{英语}{CET-6}{良好的英语读写能力}{}{}{}
+
+% \cvline{Photography}{\small Digital photography is my newest hobby.}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\end{document}

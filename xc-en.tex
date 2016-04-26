@@ -1,0 +1,98 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue, roman]{casual}
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[orange]{classic}                % idem
+
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Chang}
+\familyname{Xu}
+%\title{Curriculum Vitae}
+\mobile{+86 13141200542}
+\email{xuchang1215@163.com}
+%% \quote{``Do what you fear, and the death of fear is certain.''\\-- Anthony Robbins}
+
+%\phone{(312) 413-8265}                      % optional, remove the line if not wanted
+%\fax{312 996 1491}                          % optional, remove the line if not wanted
+%\photo[64pt]{avatar.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file;
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%% \renewcommand*{\sectionfont}{\LARGE\sffamily\monospace\slshape}
+%% \renewcommand*\addressfont{\fontfamily{pzc}\selectfont}
+%% \renewcommand*\sectionfont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
+
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2014--Present}{MS in Computer Science}{ Institute of Network Technology, Beijing University of Posts and Telecommunications}{expected 2017}{\textbf{examination free admission}}{}
+\cventry{2010--2014}{BA in Software Engineering}{Software School, Beijing University of Posts and Telecommunications}{}{}{}
+
+%\section{Master thesis}
+%\cvline{title}{\emph{Title}}
+%\cvline{supervisors}{Supervisors}
+%\cvline{description}{\small Short thesis abstract}
+
+\section{Internship}
+\vspace*{0.2\baselineskip}
+
+\cventry{2014}{Baidu}{Nature Language Process Department}{iOS development}{}{Developed "BaiduTranslate" application (the version after 5.0)}
+\cventry{2013}{Baidu}{Recommendations and Personalization Department}{Android development}{}{Developed mobile application based on Android : Tu Shu Bi Ji. Using OCR to help people take notes instead of writing. Support to share to social network. I was the major contributor of this project. \url{http://biji.baidu.com}}
+
+\section{Awards}
+\cventry{2013}{MCM - Mathematical Contest in Modeling}{Meritorious Winner}{}{}{}
+\cventry{2012}{Intel Cup National Collegiate Software Innovation Contest}{Third prize}{}{}{}
+\cventry{2012}{Lanqiao Cup Programming Competition}{Third prize, Beijing}{}{}{}
+\cventry{2011}{The First Prize Scholarship}{}{}{}{}
+
+
+\section{Project Experience}
+%% \subsection{Research Projects}
+\vspace*{0.2\baselineskip}
+
+\cventry{2015}
+{AllStar Project}
+{iOS, Android}
+{}{}
+{AllStar is a mobile application aiming at online auditions for movie. I designed the project structure and module of this application and also developed most UI and business logic.\url{http://www.youmingxing.com}}
+
+\cventry{2015}
+{Massage Order Project: He Ping Yue Tui}
+{iOS, Scala}
+{}{}
+{This project provides the service that users could order a massage online, and massagers use it to manipulate orders. We used Play framework to build a back-end management system. I developed the app used by massagers and the statistics module in the back-end. }
+
+\cventry{2014}
+{inHealth}
+{Android}
+{}{}
+{inHealth is an additional app of  smart watch ‘inWatch’. We got user data througth blue tooth. My major work is development of the data module and UI.}
+
+
+\section{Skills}
+\cventry{Languages}{Java > Objective-C > Scala}{}{}{}{}
+\cventry{Platfom}{Android, iOS}{}{}{}{}
+%% \cventry{Application Dev}{Ruby on Rails, iOS development}{}{}{}{}
+\cventry{English}{CET-6}{good in spoken and written English}{}{}{}
+% \closesection{}                   % needed to renewcommands
+% \renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol
+
+%\section{Extra 2}
+%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
+%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
+%cvlistdoubleitem[\Neutral]{Item 3}{}
+
+\end{document}
